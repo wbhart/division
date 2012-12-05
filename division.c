@@ -38,7 +38,7 @@ mp_limb_t div_preinv1(mp_limb_t d1, mp_limb_t d2)
    { a, n } and the rest of the quotient in { q, m - n }.
    We require the most significant bit of { a, m } to be 1.
    dinv must be computed from b[n - 1], b[n - 2] by div_preinv1.
-   Thus, currently we require n >= 2 and m > n.
+   Thus, currently we require n >= 2 and m >= n.
 */
 mp_limb_t div_basecase(mp_ptr q, mp_ptr a, mp_size_t m, 
                                  mp_srcptr b, mp_size_t n, mp_limb_t dinv)
