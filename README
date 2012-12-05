@@ -1,0 +1,17 @@
+Experimental bignum division code
+=================================
+
+An implementation of a simple schoolbook division algorithm with precomputed
+inverse.
+
+Prerequisites:
+
+* MPIR 2.6.0
+
+License:
+--------
+
+BSD: see license.txt
+
+William Hart - 2012.
+
